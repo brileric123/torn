@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOTTOM — THORNED</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="thorns left">
+        <span>❧</span>
+        <span>✦</span>
+        <span>❧</span>
+    </div>
+
+    <div class="thorns right">
+        <span>❧</span>
+        <span>✦</span>
+        <span>❧</span>
+    </div>
+
+    <div class="wipe"></div>
+
+    <header class="header">
+        <a class="brand" href="index.html">
+            <span>✿</span>
+            THORNED
+        </a>
+
+        <button aria-label="Toggle navigation" class="toggle">
+            ☰
+        </button>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="cart.html">CART <span class="cart-count">0</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero collection-hero">
+            <p class="eyebrow">THORNED COLLECTION / 03</p>
+            <h1>BOTTOM</h1>
+            <p>SHARP LINES. UNRESTRICTED MOVEMENT.</p>
+            <a class="text-link" href="shop.html">
+                ← ALL COLLECTIONS
+            </a>
+        </section>
+
+<section class="thorned-search">
+    <label for="thorned-search-input">SEARCH THE COLLECTION</label>
+    <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input
+            type="search"
+            id="thorned-search-input"
+            placeholder="Search products..."
+            autocomplete="off"
+        >
+        <button type="button" id="thorned-search-clear">
+            CLEAR
+        </button>
+    </div>
+    <p id="thorned-search-status" aria-live="polite"></p>
+</section>
+
+        <section class="products">
+            <article class="product">
+                <div class="product-art art0">
+                    <small>01 / 04</small>
+                    <img class="product-img" src="GRAVEWALK TROUSERS.png" alt="GRAVEWALK TROUSERS">
+                    <button
+                        class="quick"
+                        data-name="GRAVEWALK TROUSERS"
+                        data-description="Wide-leg trousers with a relaxed shape and a dark, structured finish." data-stock="12" data-price="₱2,100"
+                    >
+                        QUICK VIEW ↗
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>GRAVEWALK TROUSERS</h3>
+                        <small>THORNED ESSENTIALS</small>
+                    </div>
+
+                    <strong>₱2,100</strong>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product-art art1">
+                    <small>02 / 04</small>
+                    <img class="product-img" src="WIDOW CARGO PANTS.png" alt="WIDOW CARGO PANTS">
+                    <button
+                        class="quick"
+                        data-name="WIDOW CARGO PANTS"
+                        data-description="Utility cargo pants with a rugged silhouette and practical pockets." data-stock="12" data-price="₱2,350"
+                    >
+                        QUICK VIEW ↗
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>WIDOW CARGO PANTS</h3>
+                        <small>THORNED ESSENTIALS</small>
+                    </div>
+
+                    <strong>₱2,350</strong>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product-art art2">
+                    <small>03 / 04</small>
+                    <img class="product-img" src="AFTERHOURS DENIM.png" alt="AFTERHOURS DENIM">
+                    <button
+                        class="quick"
+                        data-name="AFTERHOURS DENIM"
+                        data-description="Dark denim-inspired trousers designed for a relaxed, alternative outfit." data-stock="12" data-price="₱2,600"
+                    >
+                        QUICK VIEW ↗
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>AFTERHOURS DENIM</h3>
+                        <small>THORNED ESSENTIALS</small>
+                    </div>
+
+                    <strong>₱2,600</strong>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product-art art3">
+                    <small>04 / 04</small>
+                    <img class="product-img" src="BLACKTHORN WIDE LEG.png" alt="BLACKTHORN WIDE LEG">
+                    <button
+                        class="quick"
+                        data-name="BLACKTHORN WIDE LEG"
+                        data-description="Wide-leg cargo trousers with thorn-inspired details and roomy movement." data-stock="12" data-price="₱2,250"
+                    >
+                        QUICK VIEW ↗
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>BLACKTHORN WIDE LEG</h3>
+                        <small>THORNED ESSENTIALS</small>
+                    </div>
+
+                    <strong>₱2,250</strong>
+                </div>
+            </article>
+        </section>
+
+        <div class="back-shop">
+            <p>THE NIGHT IS YOURS.</p>
+            <a class="button" href="shop.html">
+                BACK TO SHOP ↗
+            </a>
+        </div>
+
+        <div class="modal">
+            <div class="modal-box">
+                <button aria-label="Close" class="close">
+                    ×
+                </button>
+
+                <p class="eyebrow">THORNED ESSENTIALS</p>
+                <img class="modal-product-image" alt="" hidden>
+                <span class="modal-rose">✿</span>
+                <h2 class="modal-name">PRODUCT</h2>
+                <p class="modal-price"></p>
+
+                <p class="modal-copy"></p>
+                <p class="stock-note">● IN STOCK — AVAILABLE TO ORDER</p>
+                <div class="size-picker">
+                    <label for="product-size">SELECT SIZE</label>
+                    <select id="product-size" class="product-size">
+                        <option value="">Choose a size</option>
+                        <option value="XS">XS</option><option value="S">S</option>
+                        <option value="M">M</option><option value="L">L</option>
+                        <option value="XL">XL</option><option value="XXL">XXL</option>
+                    </select>
+                </div>
+                <div class="modal-actions">
+                    <button class="button add-cart" type="button">ADD TO CART ✦</button>
+                    <button class="button buy-now" type="button">BUY NOW ↗</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a class="brand" href="index.html">
+            THORNED
+            <sup>®</sup>
+        </a>
+
+        <p>Made for the beautifully untamed.</p>
+
+        <div>
+            <a href="shop.html">SHOP</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="cart.html">CART <span class="cart-count">0</span></a>
+        </div>
+
+        <small>© 2026 THORNED. ALL RIGHTS RESERVED.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
